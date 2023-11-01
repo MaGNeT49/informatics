@@ -4,19 +4,12 @@ using namespace std;
 
 int main()
 {
-    int number;
-    int answer = 1;
+    int number1, number2;
 
-    cin >> number;
+    cin >> number1;
+    cin >> number2;
 
-    for (int i = 1; i < number + 1; i++)
-    {
-        answer *= i;
-    }
-
-    cout << answer << endl;
-
-    system("pause");
+    cout << number1 + number2 << endl;
 
     return 0;
 }

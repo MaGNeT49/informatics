@@ -5,13 +5,16 @@ using namespace std;
 int main()
 {
     int number;
+    int answer = 1;
 
     cin >> number;
 
-    for (int i = 1; i < 11; i++)
+    for (int i = 1; i < number + 1; i++)
     {
-        cout << number * i << " ";
+        answer *= i;
     }
+
+    cout << answer << endl;
 
     return 0;
 }

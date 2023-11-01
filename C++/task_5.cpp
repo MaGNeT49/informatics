@@ -1,21 +1,14 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
 int main()
 {
-    string str;
-    cin >> str;
+    double meters;
 
-    for (int i = str.length() - 1; i >= 0; i--)
-    {
-        cout << str[i];
-    }
+    cin >> meters;
 
-    cout << endl;
-
-    system("pause");
+    cout << meters / 1000 << endl;
 
     return 0;
 }

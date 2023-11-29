@@ -97,6 +97,7 @@ void MainWindow::on_btn_ce_clicked()
 {
     ui->le_entry->clear();
     ui->lbl_temp->clear();
+    ui->le_entry->setText("0");
 }
 
 void MainWindow::on_btn_backspace_clicked()
@@ -133,12 +134,10 @@ void MainWindow::on_btn_calc_clicked()
     ui->le_entry->setText(result);
 }
 
-QString calculateExpression(const QString &expression)
+QString MainWindow::calculateExpression(const QString &expression)
 {
     // Выводим токены для отладки
-    qDebug() << "Expression:" << expression;
     QStringList tokens = expression.split(" ");
-    qDebug() << "Tokens:" << tokens;
 
     QList<QString> numbers;
     QList<QString> operators;
@@ -198,7 +197,6 @@ QString calculateExpression(const QString &expression)
     // В списке должен остаться один элемент - результат выражения
     if (numbers.size() == 1) {
         QString result = numbers.takeFirst();
-        qDebug() << "Result:" << result;
         return result;
     } else {
         return "Error";

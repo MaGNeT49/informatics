@@ -1,0 +1,15 @@
+# ninja log v5
+13	221	7229572712993776	D:/GitHub/informatics/build-calculator-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/calculator_autogen/timestamp	34c37975acd02b5d
+13	221	7229572712993776	calculator_autogen/mocs_compilation.cpp	34c37975acd02b5d
+3	27	0	D:/GitHub/informatics/build-calculator-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	6cd1b299fbdc8912
+561	2463	7229571337816997	CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.obj	27878ecd982d2542
+13	221	7229572712993776	calculator_autogen/timestamp	34c37975acd02b5d
+13	221	7229572712993776	D:/GitHub/informatics/build-calculator-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/calculator_autogen/mocs_compilation.cpp	34c37975acd02b5d
+558	2564	7229571338760893	CMakeFiles/calculator.dir/main.cpp.obj	4cc265992a493aa3
+231	2169	7229572732322777	CMakeFiles/calculator.dir/mainwindow.cpp.obj	ef406f7ec1e94087
+3207	3573	7229555092122035	calculator.exe	c463ff29c6484cf2
+3	23	0	D:/GitHub/informatics/build-calculator-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	6cd1b299fbdc8912
+13	196	7229575352331722	calculator_autogen/timestamp	34c37975acd02b5d
+13	196	7229575352331722	calculator_autogen/mocs_compilation.cpp	34c37975acd02b5d
+13	196	7229575352331722	D:/GitHub/informatics/build-calculator-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/calculator_autogen/timestamp	34c37975acd02b5d
+13	196	7229575352331722	D:/GitHub/informatics/build-calculator-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/calculator_autogen/mocs_compilation.cpp	34c37975acd02b5d
